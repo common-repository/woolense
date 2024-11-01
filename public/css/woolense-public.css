@@ -1,0 +1,39 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+.single-color {
+    display: inline-block;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.single-color:hover {
+    border:3px solid darkred;
+}
+
+.products {
+    margin-top: 40px;
+}
+
+
+
+li.product img {
+    width: 100%;
+}
+
+/* Responsive css */
+@media (min-width: 768px) {
+    .site-main ul.products.woolense-products li.product {
+        width: 29.4117647059%;
+        float: none;
+        margin-right: 3.882353%;
+        display: inline-block;
+    }
+}

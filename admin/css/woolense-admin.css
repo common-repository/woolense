@@ -1,0 +1,136 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+#woocommerce-product-data ul.wc-tabs li.woolense_options.woolense_tab a::before {
+    font-family: WooCommerce; 
+    content: '\e010';
+}
+
+#woolense_product_data {
+    padding:20px;
+}
+
+.woolense-product-preview {
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 1);
+    margin-top: 10px;
+    padding: 5px 5px 1px 5px;
+}
+
+
+.woolense-product-preview img {
+    width: 200px;
+    height: auto;
+}
+
+.single-color {
+    display:inline-block;
+    width: 80px;
+    height: 25px;
+}
+.woolense-helper {
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    border-left: 3px solid #46b450;
+}
+
+.woolense-color-output {
+    display: inline-block;
+    box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 1);
+    margin-top: 7px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.woolense-loader {
+    display: none;
+}
+
+.woolense-loader img {
+    width: 37px;
+    height: auto;
+}
+
+/* Style The Dropdown Button */
+.woolense-dropbtn {
+    background: #9a4ef1;
+    color: #fff;
+    padding: 8px 14px 10px 14px;
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.woolense-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.woolense-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.woolense-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.woolense-dropdown-content .woolense-denied, .woolense-denied {
+    cursor:no-drop;
+}
+
+/* Change color of dropdown links on hover */
+.woolense-dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.woolense-dropdown:hover .woolense-dropbtn {
+    background-color: #FF851B;
+}
+
+.woolense-label {
+    padding: 2px;
+    border-radius: 2px;
+    background: #1eb514;
+    font-size: 8px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+
+/* Cropper css */
+img {
+    max-width: 100%;
+}
+
+.woolense-cancel {
+    background: #E91E63;
+}
+
+.woolense-helper p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9a4ef1;
+}
